@@ -167,4 +167,4 @@ console.log(youGottaCalmDown(thirdWord));
 let testWord = "Abdullah Abbas !!"
 console.log(youGottaCalmDown(testWord));
 let testWord2 = "Abdullah Abbas !! Al Abbas" // want to test but it is removing all after !!
-console.log(youGottaCalmDown(testWord2));
+console.log(youGottaCalmDown(testWord2)); // to make this work i have to use wordneeded = wordneeded.slice(locationOfEx, (locationOfEx+1)); but getting erros dont know why
